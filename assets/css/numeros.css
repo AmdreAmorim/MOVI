@@ -1,0 +1,57 @@
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--neutral-color-low-pure);
+    padding: 122px 0 0 0;
+    max-width: 1440px;
+}
+
+.numbers h2 {
+    font-family: var(--font-family-highlight);
+    color: var(--neutral-color-high-pure);
+    font-weight: var(--font-weight-regular);
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.numbers .card-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 82px;
+    max-width: 950px;
+}
+
+.numbers .card-area .card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    height: 190px;
+    width: 280px;
+    background-color: #28252c33;
+    border-radius: 8px;
+    padding-left: 40px;
+}
+
+.numbers .card-area .card:hover {
+    background-color: #28252c99;
+}
+
+.numbers .card-area .card h3 {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    color: var(--neutral-color-high-pure);
+    font-size: 1.25rem;
+}
+
+.numbers .numbers__bottle {
+    align-self: flex-end;
+    margin: 80px 0;
+}

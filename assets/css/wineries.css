@@ -1,0 +1,80 @@
+.wineries {
+    background-color: var(--neutral-color-low-pure);
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    padding-left: 130px;
+    padding-bottom: 160px;
+}
+
+.wineries__title {
+    min-width: 352px;
+    margin-right: 90px;
+}
+
+.wineries__title h2 {
+    color: var(--neutral-color-high-pure);
+    font-family: var(--font-family-highlight);
+    font-weight: var(--font-weight-medium);
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.wineries__title h3 {
+    color: var(--neutral-color-high-dark);
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.wineries__btns {
+    display: flex;
+    gap: 16px;
+}
+
+.wineries__btns .btns__item {
+    cursor: pointer;
+}
+
+.wineries__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.wineries__content::-webkit-scrollbar {
+    width: 0;
+}
+
+.wineries__card {
+    height: 100%;
+    width: 100%;
+    min-width: 384px;
+    min-height: 212px;
+    border-radius: 8px;
+    background-image: url(/assets/images/hnv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 40px 32px;
+}
+
+.wineries__card:nth-child(2) {
+    background-image: url(/assets/images/thm.png);
+}
+
+.wineries__card h2 {
+    color: var(--neutral-color-high-pure);
+    font-family: var(--font-family-highlight);
+    font-weight: var(--font-weight-regular);
+    font-size: 1.25rem;
+}

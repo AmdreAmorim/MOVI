@@ -1,0 +1,60 @@
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--neutral-color-low-pure);
+    padding: 122px 0 190px 0;
+    max-width: 1440px;
+}
+
+.brands h2 {
+    font-family: var(--font-family-highlight);
+    color: var(--neutral-color-high-pure);
+    font-weight: var(--font-weight-regular);
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.brands h3 {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    color: var(--neutral-color-high-dark);
+    font-size: 2rem;
+    margin-bottom: 70px;
+}
+
+.brands .brands-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    gap: 94px;
+    margin-bottom: 190px;
+    max-width: 1440px;
+    width: 100%;
+    padding: 15px 100px 15px 100px;
+}
+.brands .brands-area::-webkit-scrollbar {
+    width: 0px;
+}
+.brands .brands-area .brand-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.brands .brands-area .brand-card:hover {
+    background-color: #28252c99;
+}
+
+.brands .map {
+    width: 100%;
+    margin-top: 112px;
+    margin-bottom: 167px;
+    padding: 20px;
+}

@@ -1,0 +1,69 @@
+header {
+    background-color: var(--brand-color-primary-pure);
+    max-width: 1440px;
+    margin: auto;
+}
+
+header .logo-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+header .logo-img {
+    margin: auto;
+}
+
+header .content {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    padding: 40px 0 65px 0;
+}
+
+header .content__text {
+    max-width: 550px;
+}
+
+header .content__text h1 {
+    font-family: var(--font-family-highlight);
+    color: var(--neutral-color-high-pure);
+    font-size: 4rem;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+
+header .content__text h2 {
+    font-family: var(--font-family-base);
+    color: var(--neutral-color-high-dark);
+    font-weight: var(--font-weight-regular);
+    font-size: 1.5rem;
+    margin-bottom: 48px;
+}
+
+header .content__text a {
+    font-family: var(--font-family-base);
+    color: var(--brand-color-primary-pure);
+    background-color: var(--neutral-color-high-pure);
+    font-weight: var(--font-weight-medium);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 160px;
+    text-transform: uppercase;
+    border: 1.5px solid var(--brand-color-primary-pure);
+}
+
+header .content__text a:hover {
+    border: 1.5px solid var(--neutral-color-high-pure);
+}
+
+header .content__img-area {
+    overflow-x: hidden;
+}
+
+header .content__img-area img {
+    height: 600px;
+}
