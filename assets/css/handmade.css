@@ -125,3 +125,53 @@
 .handmade__content .handmade__card__content a:hover {
     border: 2px solid var(--brand-color-primary-pure);
 }
+
+@media screen and (max-width: 1000px) {
+    .handmade .handmade__btns {
+        display: none;
+    }
+
+    .handmade__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .handmade__title h2 {
+        text-align: center;
+    }
+    .handmade__title h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .handmade__title h2 {
+        font-size: 2rem;
+    }
+
+    .handmade__title h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .handmade__title h2 {
+        font-size: 1.5rem;
+    }
+
+    .handmade__title h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .handmade__title h2 {
+        font-size: 1.25rem;
+    }
+
+    .handmade__title h3 {
+        font-size: 0.75rem;
+    }
+}

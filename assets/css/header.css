@@ -19,12 +19,13 @@ header .logo-img {
 header .content {
     display: flex;
     justify-content: center;
-    justify-content: center;
     padding: 40px 0 65px 0;
 }
 
 header .content__text {
     max-width: 550px;
+    padding-left: 112px;
+    order: 1;
 }
 
 header .content__text h1 {
@@ -62,8 +63,122 @@ header .content__text a:hover {
 
 header .content__img-area {
     overflow-x: hidden;
+    padding-right: 200px;
+    order: 2;
+    margin: auto;
 }
 
 header .content__img-area img {
     height: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+    header .content__text h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    header .content__text h2 {
+        font-size: 1.25rem;
+    }
+
+    header .content__img-area {
+        padding-right: 400px;
+    }
+
+    header .content__img-area img {
+        margin: auto;
+    }
+
+    header .content__text a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header .logo-img {
+        height: 82px;
+        width: 82px;
+    }
+
+    header .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 0 65px 0;
+    }
+
+    header .content__text {
+        order: 2;
+        max-width: 375px;
+        padding: 0;
+        text-align: center;
+    }
+
+    header .content__text h1 {
+        font-size: 3.5rem;
+        margin-bottom: 16px;
+    }
+
+    header .content__text h2 {
+        font-size: 1.75rem;
+    }
+
+    header .content__text a {
+        font-size: 25px;
+    }
+
+    header .content__img-area {
+        order: 1;
+        padding: 0;
+        margin: auto;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .content__img-area img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .content__text h1 {
+        font-size: 3rem;
+    }
+
+    header .content__text h2 {
+        font-size: 1.25rem;
+    }
+
+    header .content__text a {
+        font-size: 20px;
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header .content__text h1 {
+        font-size: 2rem;
+    }
+
+    header .content__text h2 {
+        font-size: 1rem;
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    header .content__text a {
+        font-size: 16px;
+        margin-bottom: 55px;
+    }
+
+    header .content__img-area img {
+        height: 400px;
+    }
 }

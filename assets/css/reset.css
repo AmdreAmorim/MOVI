@@ -29,3 +29,7 @@
     --neutral-color-high-medium: #e0e0e0;
     --neutral-color-high-dark: #cbc7d1;
 }
+
+body {
+    overflow-x: hidden;
+}

@@ -58,3 +58,33 @@
     margin-bottom: 167px;
     padding: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .brands {
+        padding: 122px 0 122px 0;
+    }
+
+    .brands .map {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brands h2 {
+        font-size: 2rem;
+    }
+
+    .brands h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .brands h2 {
+        font-size: 1.5rem;
+    }
+
+    .brands h3 {
+        font-size: 1rem;
+    }
+}
